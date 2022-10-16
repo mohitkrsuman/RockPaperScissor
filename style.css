@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container-1{
+   width: 100vw;
+   height: 100vh;
+   background:linear-gradient(#1f4037,#99f2c8);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   font-family: 'Wallpoet', cursive;
+   color: white;
+}
+
+#rpsH {
+   padding: 20px 10px;
+   margin-bottom: 20px;
+   background-image: linear-gradient(#40E0D0,#FF0080,#f12711,#f5af19);
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+   font-size: 3rem;
+}
+
+#container-2{
+   width: 75vw;
+   height: 70vh;
+   background:linear-gradient(#0cebeb,#20e3b2,#29ffc6);
+   box-shadow: 0px 10px 20px 20px rgba(0, 0, 0, 0.6);
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   background-image: linear-gradient(120deg, rgba(0,0,0,0.5) 50%, rgba(255,255,255,0.5) 50%);
+}
+
+#container-2 img:hover{
+   box-shadow: 0px 10px 20px 20px rgba(206, 41, 156, 0.6);
+}
+
+#container-2 img{
+  padding: 0px 15px;
+  margin: 0 20px;
+}
+
+@media(max-width: 768px){
+   #container-2 img{
+      width: 10rem;
+      height: 10rem;
+   }
+
+   #rpsH{
+      font-size: 2rem;
+   }
+   #container-2 {
+      display: flex;
+      justify-content: space-around;
+   }
+}
